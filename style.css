@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: white;
+}
+
+.header {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    width: 500px;
+    float: left;
+}
+
+.header .contact {
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 250px;
+    float: right;
+    text-align: right;
+}
+
+.header .contact a {
+    text-decoration: none;
+    color: #757373;
+}
+
+.header .contact .phone a {
+    font-size: 44px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.header .contact .call_orden a {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.top_menu {
+    width: 960px;
+    background-color: #e0e0e0;
+    margin: 0 auto;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.top_menu ul {
+    margin: 0 20px;
+}
+
+.top_menu ul li {
+    display: inline-block;
+}
+
+.top_menu ul li a {
+    display: inline-block;
+    font-size: 25px;
+    color: #7e7e7e;
+    text-decoration: none;
+    padding: 20px 35px 20px;
+    text-align: center
+}
+
+.top_menu ul li a:hover {
+    background-color: #28c5e6;
+    color: white;
+}
+
+
+
+
+.middle {
+    min-height: 300px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.middle .left_side {
+    /*    background-color: red;*/
+    width: 267px;
+    float: left;
+}
+
+.middle .left_side .block h3 {
+    background-color: #28c5e6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.middle .left_side .block ul {
+    background: #e0e0e0;
+    padding: 0px;
+    margin-top: 35px;
+}
+
+.middle .left_side .block ul li {
+    display: block;
+}
+
+.middle .left_side .block ul li a {
+    display: block;
+    color: #7e7e7e;
+    text-decoration: none;
+    padding: 15px 15px 15px;
+}
+
+.middle .left_side .block ul li a:hover {
+    background-color: #28c5e6;
+    color: white;
+}
+
+
+.middle .main {
+    margin-left: 296px;
+}
+
+.middle .main .quote {
+    padding: 30px;
+    background-color: #28c5e6;
+    color: white;
+}
+
+.middle .main .quote .quote_text {
+    font-style: italic;
+    font-family: Sans;
+    font-size: 18px;
+}
+
+.middle .main .quote .quote_sign {
+    padding-top: 10px;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.middle .main .content {
+    margin: 50px 30px 50px 30px;;
+}
+
+.middle .main .content h1 {
+    padding-bottom: 20px;
+}
+
+.middle .main .advantages {
+    margin-bottom: 30px;
+}
+
+.middle .main .advantages h3 {
+    background-color: #28c5e6;
+    color: white;
+    padding: 10px 30px;
+    margin: 0 0 25px;
+}
+
+.middle .main .advantages .adv {
+    display: inline-block; 
+    width: 32.8%;
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.middle .main .advantages .adv h4 {
+    text-align: center;
+    color: #28c5e6;
+    font-weight: none;
+}
+
+
+
+
+.footer {
+    clear: both;
+    background-color: #757373;
+    min-height: 100px;
+/*    margin-bottom: -100px;*/
+}
+
+.inner {
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.stroyteplo {
+    float: left;
+    font-size: 18px;
+}
+
+.unibix {
+    float: right;
+    font-size: 18px;
+}
